@@ -57,6 +57,7 @@ func TestShowMenuItemByIdHandler(t *testing.T) {
 
 	assert.Equal(t, http.StatusNotFound, w.Code)
 }
+
 // package openapi
 
 // import (
